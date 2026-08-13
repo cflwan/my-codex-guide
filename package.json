@@ -1,0 +1,28 @@
+{
+  "name": "my-codex-guide",
+  "version": "0.1.0",
+  "private": true,
+  "description": "用大白话讲明白 Codex 怎么用 - 个人 Codex 学习笔记",
+  "type": "module",
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs --host 0.0.0.0",
+    "build": "vuepress build docs",
+    "clean": "rm -rf docs/.vuepress/.cache docs/.vuepress/.temp docs/.vuepress/dist"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.28",
+    "sass-embedded": "^1.97.2",
+    "typescript": "5.9.3",
+    "vue": "^3.5.26",
+    "vuepress": "2.0.0-rc.28",
+    "vuepress-theme-hope": "2.0.0-rc.106"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "dependencies": {
+    "@vuepress/plugin-feed": "^2.0.0-rc.128",
+    "@vuepress/plugin-slimsearch": "^2.0.0-rc.128"
+  }
+}
