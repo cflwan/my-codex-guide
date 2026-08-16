@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "vuepress dev docs --host 0.0.0.0",
-    "build": "vuepress build docs",
+    "build": "node scripts/generate-llms.mjs && vuepress build docs",
     "clean": "rm -rf docs/.vuepress/.cache docs/.vuepress/.temp docs/.vuepress/dist"
   },
   "devDependencies": {
@@ -18,7 +18,8 @@
     "typescript": "5.9.3",
     "vue": "^3.5.26",
     "vuepress": "2.0.0-rc.28",
-    "vuepress-theme-hope": "2.0.0-rc.106"
+    "vuepress-theme-hope": "2.0.0-rc.106",
+    "wrangler": "^4.122.0"
   },
   "packageManager": "pnpm@10.33.0",
   "dependencies": {

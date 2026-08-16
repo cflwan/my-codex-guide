@@ -1,0 +1,75 @@
+# Codex 大白话指南
+
+> 用大白话讲明白 OpenAI Codex 怎么用：快速上手、进阶技巧、实战案例，一个普通开发者的学习笔记。
+
+ Topics: Codex 教程, Codex CLI, AGENTS.md, AI 编程, OpenAI Codex
+
+Site URL: https://my-codex-guide.pages.dev
+
+## 页面清单
+
+### 首页
+
+- [Codex 大白话指南](https://my-codex-guide.pages.dev/)：用大白话讲明白 Codex 怎么用，不整那些虚的。
+
+### 学习路线
+
+- [学习路线](https://my-codex-guide.pages.dev/guide/)：学习路线 - 告诉你先看什么后看什么，别上来就啃硬骨头
+
+### 快速上手
+
+- [快速上手](https://my-codex-guide.pages.dev/start/00-index)：快速上手 - 从零开始装 Codex、登账号、跑通第一个任务
+- [Codex 是什么](https://my-codex-guide.pages.dev/start/01-what-is-codex)：Codex 是什么 - 用大白话解释 Codex 到底是个啥东西
+- [桌面 App 下载与安装](https://my-codex-guide.pages.dev/start/02-app-installation)：桌面 App 下载安装 - 手把手教你怎么装 Codex
+- [搞个账号](https://my-codex-guide.pages.dev/start/03-account-plan)：账号和订阅 - ChatGPT Plus 还是 Pro？怎么选？
+- [连接第三方 API](https://my-codex-guide.pages.dev/start/04-third-party-api)：第三方 API - 搞不定官方订阅？用第三方 API 也能跑 Codex
+- [了解 Codex 基本组成](https://my-codex-guide.pages.dev/start/05-app-overview)：Codex 桌面 App 基本界面 - 每个区域干嘛的，别被吓到
+- [用 Codex 完成第一个任务](https://my-codex-guide.pages.dev/start/06-first-task)：第一个任务 - 手把手教你让 Codex 干第一件活
+- [任务设计](https://my-codex-guide.pages.dev/start/07-task-design)：任务设计 - 怎么跟 Codex 说话它才能听懂
+- [任务执行与验证闭环](https://my-codex-guide.pages.dev/start/08-task-execution)：任务执行与验证 - 怎么检查 Codex 干的活对不对
+- [用手机远程操控 Codex](https://my-codex-guide.pages.dev/start/09-mobile-control)：手机远程操控 Codex - 用 ChatGPT 手机 App 跟进桌面任务
+- [安装 CLI](https://my-codex-guide.pages.dev/start/10-cli-installation)：CLI 安装 - 在终端里装 Codex CLI
+- [第一次跑 CLI](https://my-codex-guide.pages.dev/start/11-cli-first-run)：第一次跑 CLI - 在终端里用 Codex 改代码
+- [CLI 选项与命令](https://my-codex-guide.pages.dev/start/12-cli-options)：CLI 选项速查 - 常用参数和命令
+- [在 VS Code 中使用 Codex](https://my-codex-guide.pages.dev/start/13-ide-vscode)：在 VS Code 里用 Codex - 编辑器集成
+- [使用 Codex Cloud](https://my-codex-guide.pages.dev/start/14-cloud)：Codex Cloud - 在云端跑任务
+
+### 进阶教程
+
+- [进阶教程](https://my-codex-guide.pages.dev/advanced/00-index)：进阶教程 - 用熟了之后想更深入？看这里
+- [理解费用与上下文](https://my-codex-guide.pages.dev/advanced/01-cost-context)：费用与上下文 - Codex 怎么计费，怎么省钱
+- [AGENTS.md](https://my-codex-guide.pages.dev/advanced/02-agents-md)：AGENTS.md - 让 Codex 记住你的项目规则
+- [Skills 和 Plugins](https://my-codex-guide.pages.dev/advanced/03-skills-plugins-mcp)：Skills 和 Plugins - 扩展 Codex 的能力
+- [权限管理](https://my-codex-guide.pages.dev/advanced/04-permissions-security)：权限管理 - 控制 Codex 能干什么不能干什么
+- [Automation（自动化）](https://my-codex-guide.pages.dev/advanced/05-automation)：自动化 - 让 Codex 定时帮你干活
+- [Hooks](https://my-codex-guide.pages.dev/advanced/06-hooks)：Hooks - 在 Codex 执行过程中插入你的逻辑
+- [沙盒与审批](https://my-codex-guide.pages.dev/advanced/07-sandbox-approvals)：沙盒与审批 - 安全边界，别让 AI 瞎搞
+- [自动线程管理](https://my-codex-guide.pages.dev/advanced/08-thread-management)：自动线程管理 - 多任务管理
+- [配置文件 config.toml](https://my-codex-guide.pages.dev/advanced/09-config-toml)：config.toml - Codex 核心配置文件
+- [团队实践](https://my-codex-guide.pages.dev/advanced/10-team-playbook)：团队实践 - 带着团队一起用 Codex
+- [排障手册](https://my-codex-guide.pages.dev/advanced/11-troubleshooting)：排障手册 - 遇到问题先来这查
+
+### 实战案例
+
+- [实战案例库](https://my-codex-guide.pages.dev/recipes/00-index)：实战案例库 - 看看别人怎么用 Codex 干活
+- [用 PPT Skill 一句话生成演示文稿](https://my-codex-guide.pages.dev/recipes/01-ppt-skill-walkthrough)：用 PPT Skill 一句话生成演示文稿
+- [用 Draw.io MCP 让 AI 画架构图](https://my-codex-guide.pages.dev/recipes/02-drawio-mcp)：用 Draw.io MCP 让 AI 画架构图
+- [用 Playwright MCP 让 Codex 操控浏览器](https://my-codex-guide.pages.dev/recipes/03-playwright-mcp)：用 Playwright MCP 让 Codex 操控浏览器
+- [用 HyperFrames 生成动画视频](https://my-codex-guide.pages.dev/recipes/04-hyperframes-animation)：用 HyperFrames 生成动画视频
+- [在 Obsidian 中用 Codex 生成配图](https://my-codex-guide.pages.dev/recipes/05-obsidian-codex)：在 Obsidian 中用 Codex 生成配图
+- [用飞书 CLI 处理协作数据](https://my-codex-guide.pages.dev/recipes/06-feishu-cli-codex)：用飞书 CLI 处理协作数据
+- [在 Obsidian 中搭建 LLM Wiki](https://my-codex-guide.pages.dev/recipes/07-llm-wiki-codex)：在 Obsidian 中搭建 LLM Wiki
+- [用 Figma MCP 读取设计稿](https://my-codex-guide.pages.dev/recipes/08-figma-mcp-codex)：用 Figma MCP 读取设计稿
+- [用 Notion MCP 打通知识空间](https://my-codex-guide.pages.dev/recipes/09-notion-mcp-codex)：用 Notion MCP 打通知识空间
+- [用 DKFile 一键发布网页到公网](https://my-codex-guide.pages.dev/recipes/10-dkfile-deploy-codex)：用 DKFile 一键发布网页到公网
+- [用 Codex 远程定位并修复服务器 Bug](https://my-codex-guide.pages.dev/recipes/11-remote-bug-fix)：用 Codex 远程定位并修复服务器 Bug
+- [用 Chrome 插件让 AI 控制网页](https://my-codex-guide.pages.dev/recipes/12-chrome-browser-plugin)：用 Chrome 插件让 AI 控制网页
+- [CI 失败后自动触发 Codex 修复](https://my-codex-guide.pages.dev/recipes/13-github-actions-ci-fix)：CI 失败后自动触发 Codex 修复
+- [用 Codex 整理临床文献综述](https://my-codex-guide.pages.dev/recipes/14-clinical-literature-review)：用 Codex 整理临床文献综述
+- [用 Hatch Pet 生成专属桌面宠物](https://my-codex-guide.pages.dev/recipes/15-hatch-pet-photo)：用 Hatch Pet 生成专属桌面宠物
+- [用安卓手机远程操控 Codex](https://my-codex-guide.pages.dev/recipes/16-android-remote-control)：用安卓手机远程操控 Codex
+- [用桌面宠物显示任务状态](https://my-codex-guide.pages.dev/recipes/17-desktop-pet)：用桌面宠物显示任务状态
+
+### 参考手册
+
+- [参考手册](https://my-codex-guide.pages.dev/manual/00-index)：参考手册 - 官方资料链接汇总
